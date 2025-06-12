@@ -7,6 +7,7 @@ private:
     static const int max = 5;
     int FRONT, REAR;
     int queue_array[5];
+
 public:
     Queues()
     {
@@ -63,5 +64,13 @@ public:
             else 
                 FRONT = FRONT +  1;
         }
+    }
+
+    void display()
+    {
+        int FRONT_position = FRONT;
+        int REAR_position = REAR;
+
+        
     }
 };
